@@ -1,87 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 
-
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Lato',sans-serif;
-	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+/*==========================
+--- body
+========================== */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-html {
-    width: 100%;
-    height: 100%;
+/* ========================
+--- Gray Back
+=========================*/
+.gray-back {
+  background-color: #34495e;
+  width: 100%;
+  height: 600px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 30px;
-    text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-
-
-
-#particles-js {
-    background: #484848;
-    height: 100%;
-  }
-  /* ===========================
---- Intro
+/* ===========================
+--- Heading
 ============================ */
-
-.intro {
-	width:100%;
-	position:relative;
-    background-size: cover;
-    height: auto;
-
+.heading {
+  text-align: center;
+  color: white;
 }
 
-.intro .slogan {
-    padding-top: 18%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
+.heading-slogan {
+  padding-top: 12%;
 }
 
-
-
-.intro .slogan {
-	text-align: center;
-
+.slogan-top {
+  font-size: 100px;
+  font-weight: bold;
 }
 
-
-
-
-.intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 122px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
-}
-
-.intro .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+.slogan-bottom {
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 1em;
 }
